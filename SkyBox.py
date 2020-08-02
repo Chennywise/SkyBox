@@ -380,7 +380,7 @@ playSim = False
 clicked = []
 selected = [1]
 
-pygame.display.set_caption('Sandbox')
+pygame.display.set_caption('SkyBox')
 clickPos = (-1, -1)
 gravity = None
 inPlay = True
@@ -477,7 +477,10 @@ while inPlay:
                             myPers.loadFromFile(saveFile)
 
                         elif i == 9:
-                            gravity = float(inputValues[8])
+                            try:
+                                gravity = float(inputValues[8])
+                            except:
+                                pass
                         elif i == 10:
                             resetPerspective(myPers)
                             
