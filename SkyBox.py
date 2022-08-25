@@ -211,6 +211,7 @@ def checkConfirm():
         if 1 not in selected:
             myPers.grid.stuff[-1].movable = False
 
+            
 def resetPerspective(myPers):
     myPers.anglex = 0
     myPers.angley = 0
