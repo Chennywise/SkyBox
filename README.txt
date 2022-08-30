@@ -12,3 +12,5 @@ The PAUSE and PLAY button can be used to enable the physics of the the system to
 The eye icon can be clicked to reset your perspective
 
 The gravity constant has been pre-set to 0.0004
+
+This project was made with 4 people each doing equal amounts of work during a hackathon with the final product uploaded to BCheng-KH
