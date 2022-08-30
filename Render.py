@@ -31,9 +31,6 @@ class Grid(object):
             thing.vcoords[1], thing.vcoords[0] = rotate2(thing.vcoords[1], thing.vcoords[0], anglex)
             thing.vcoords[1], thing.vcoords[2] = rotate2(thing.vcoords[1], thing.vcoords[2], angley)
             
-        
-
-
 class perspective(object):
     def __init__(self, ratio, anglex, angley, coords, size):
         self.ratio = ratio
